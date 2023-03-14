@@ -1,0 +1,28 @@
+@keyframes divcolor { 
+    0% {background-color:cornsilk;}
+50% {background-color: cornflowerblue;}
+100% {background-color:crimson ;
+transform: rotate(45deg);}
+    
+}
+
+/*to keep my image stationary*/
+div{
+    position: relative;
+    left:300px;
+    top: 200px;
+}
+/*when you right click, the image will start rotating*/
+div :active{height:150px;
+    width:150px;
+    background-color: darkgrey;
+    animation-name: divcolor;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    -o-animation-direction: alternate;
+  
+    
+    
+}
+
