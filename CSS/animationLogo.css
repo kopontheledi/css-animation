@@ -2,7 +2,8 @@
     0% {background-color:cornsilk;}
 50% {background-color: cornflowerblue;}
 100% {background-color:crimson ;
-transform: rotate(45deg);}
+transform: rotate(360deg);}
+
     
 }
 
@@ -13,8 +14,8 @@ div{
     top: 200px;
 }
 /*when you right click, the image will start rotating*/
-div :active{height:150px;
-    width:150px;
+div :hover{height:150px;
+    width:250px;
     background-color: darkgrey;
     animation-name: divcolor;
     animation-duration: 2s;
